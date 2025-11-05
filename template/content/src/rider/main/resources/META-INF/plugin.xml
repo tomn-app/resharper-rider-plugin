@@ -12,4 +12,8 @@
 ]]>
   </description>
 
+  <extensions defaultExtensionNs="com.intellij">
+    <editorFactoryListener implementation="com.jetbrains.rider.plugins.sampleplugin.StarryBackgroundFactoryListener"/>
+  </extensions>
+
 </idea-plugin>
